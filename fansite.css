@@ -1,0 +1,246 @@
+
+.fansite {
+    background-image: url(image-fansite/illustration2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;  
+}
+
+.Réalisations {
+    background-image: url(image-fansite/illustration.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.honneurs {
+    background-image: url(image-fansite/medaille3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.photos2 {
+    background-image: url(image-fansite/lune.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+header {
+    text-align: center;
+    margin-bottom: 10%;        
+}
+
+
+nav li {
+    display: inline;
+    margin: 4%;    
+}
+
+
+nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 10px #9c9898;
+    font-weight: bold;
+}
+
+
+.welcome {
+    text-align: center;
+}
+
+
+.welcome img {
+    width: 30%;
+    border-radius: 10%;
+    position: relative;
+    box-shadow: 1px 1px 5px rgba(34, 255, 0, 0.859), -1px -1px 5px rgba(255, 0, 0, 0.859);;   
+}
+
+.welcome h1{
+    font-size: 200%;
+    background: linear-gradient(45deg, #ffffff 80%, #000000 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 0 2px 1px  rgb(0, 0, 0);
+}
+
+.welcome h2 {
+    background: linear-gradient(45deg, #ff0000 30%, #00ff33 80%);
+    transform: skew(-20deg) rotate(-5deg);
+    text-transform: uppercase;
+    cursor: default;
+    text-align: center;
+    font-size: 4.5vw;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    line-height: 3;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    margin-top: -10%; 
+    text-shadow: 1px 2px 3px rgb(8, 8, 8);
+}
+
+
+.welcome h3{
+
+    font-size: 200%;
+    background: linear-gradient(45deg, #ffffff 80%, #000000 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 0 2px 2px  rgb(0, 0, 0);
+   
+}
+
+.welcome h4{
+    font-size: 200%;
+    background: linear-gradient(45deg, #ffffff 80%, #000000 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 0 2px 2px  rgb(0, 0, 0);
+   
+}
+
+
+.welcome p {
+    font-size: 2.5vb;
+    color: #000000;
+    text-shadow: 2px 2px 2px #7b7878;
+    font-weight: bold;
+    
+}
+
+.achievements {
+    padding: 20px;
+}
+
+
+.achievement-item {
+    background-image: url(image-fansite/physique.jpeg);
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 1px 1px 10px rgba(34, 255, 0, 0.715), -1px -1px 10px rgb(255, 0, 0) ;;
+    color: #ffffff;
+    text-shadow: 0 0 15px rgb(0, 0, 0);
+}
+
+
+.item{
+    padding: 20px;
+}
+
+.achievement-item2 {
+    background-image: url(image-fansite/medaille.jpg);
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 1px 1px 10px rgba(34, 255, 0, 0.715), -1px -1px 10px rgb(255, 0, 0) ;;
+    font-size: 100%;
+    color: #ffffff;
+    text-shadow: 0 0 15px rgb(0, 0, 0);
+}
+
+
+footer {
+    background-color: transparent;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+footer img {
+    width: 20%;  
+}
+
+
+.img {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 0%;
+    align-items: center;
+    background-image: transparent;
+}
+
+
+header button {
+    font-size: 25px;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    display: inline;
+    justify-content: center;
+    font-weight: bold;
+    
+}
+
+a:hover, button:hover {
+    background: linear-gradient(45deg, #cb0202 5%, green 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+
+.sidebar-container:hover .sidebar-list {
+    max-height: 100px; 
+    transition: max-height 0.3s ease-in-out;
+    text-align: center;
+}
+
+
+.sidebar-list {
+    max-height: 0; 
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+   
+}
+
+.sidebar-list li {
+    list-style-type: none;
+    margin: 10px 0;
+    
+}
+
+.sidebar-list a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+      
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.grid {
+    position:relative;
+    column-count: 4;
+    gap: 10px;
+    padding: 20px;
+}
+
+.grid-item{
+    margin:0;
+    margin-bottom: px;
+}
+
+.grid-item img{
+   width: 100%;
+   box-shadow: 1px 1px 10px rgba(163, 163, 163, 0.715), -1px -1px 10px rgb(8, 8, 8) ;;
+}
+
+@media(max-width:500px) {
+    .grid{
+        column-count: 2;
+    }
+}
+
